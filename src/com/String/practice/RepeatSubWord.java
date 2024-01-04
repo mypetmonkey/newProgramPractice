@@ -3,7 +3,7 @@ package com.String.practice;
 public class RepeatSubWord {
 	
 	public static void main(String[] args) {
-        String st= "webapiweb";
+        String st= "webrajapiwebhanswebapi";
         String res=repeatWord(st);
         System.out.println("Longest Repeating Substring: " +res);
      }

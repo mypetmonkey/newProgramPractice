@@ -4,8 +4,8 @@ public class ArrayEV {
 	public static void main(String[] args) {
 		    int ar[]= {1,2,3,4,5,6,7,8,9};
 	    	int cnt[]=countevod(ar);
-	    			System.out.println("even  "+cnt[0]);
-	    	        System.out.println("odd  "+cnt[1]);
+	    			System.out.println("even count "+cnt[0]);
+	    	        System.out.println("odd count "+cnt[1]);
 	    
 	}
 	static int[] countevod(int []x) {

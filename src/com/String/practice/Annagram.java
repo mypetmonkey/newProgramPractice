@@ -1,4 +1,4 @@
-package com.String.practice;
+ package com.String.practice;
 
 import java.util.Arrays;
 
@@ -23,7 +23,7 @@ public class Annagram {
 	
 	public static void main(String[] args) {
 		String s1="pool";
-		String s2="lopo";
+		String s2="lop o";
 		
 		boolean res=isAnnagram(s1,s2);
 		if(res)

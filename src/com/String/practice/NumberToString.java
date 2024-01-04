@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NumberToString {
 	
 	static void nw(int x,String st) {
-		String fw[]= {"","one","two","three","four","five","six","seven","eight","nine","ten",
+	String fw[]= {"","one","two","three","four","five","six","seven","eight","nine","ten",
 				"eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","ninteen"};
-		String sw[]= {"","","twenty"+" ","thirty"+" ","fourty"+" ","fifty"+" ","sixty"+" ","seventy"+" ","eighty"+" ","ninty"+" "};
+	String sw[]= {"","","twenty"+" ","thirty"+" ","fourty"+" ","fifty"+" ","sixty"+" ","seventy"+" ","eighty"+" ","ninty"+" "};
 		if(x<20) {
 			System.out.print(fw[x]+" ");
 		}
