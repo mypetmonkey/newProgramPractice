@@ -7,14 +7,14 @@ public class AllVowelPrint {
 	public static void main(String[] args) {
 		String st="automation engineer";
 		
-		HashSet<Character> al=new HashSet<>();
+		HashSet<Character> hs=new HashSet<>();
 		
 		for(int i=0;i<st.length();i++) {
 			char ch=st.charAt(i);
 			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
-				al.add(ch);
+				hs.add(ch);
 		}
-		for(Character temp:al) {
+		for(Character temp:hs) {
 			System.out.print(temp+" ");
 		}
 	}
